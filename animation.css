@@ -1,0 +1,51 @@
+
+    .bubbles {
+        border-radius: 50%;
+        border-color: #b7fdfd;
+        background: linear-gradient( 35deg, #dbfdfd, #f7f5f5, #f3f8f3);
+        position: fixed;
+        width: 15vmax;
+        height: 15vmax;
+        margin-top: -15vmax;
+        margin-bottom: -15vmax;
+        animation-name: up;
+        animation-iteration-count: infinite;
+    }
+    #bubble1 {
+        left: 10%;
+        animation-timing-function: linear;
+        animation-duration: 4s;
+    }
+    #bubble2 {
+        left: 20%;
+        animation-timing-function: linear;
+        animation-duration: 6s;
+    }
+    #bubble3 {
+        left: 35%;
+        animation-timing-function: linear;
+        animation-duration: 8s;
+    }
+    #bubble4 {
+        left: 55%;
+        animation-timing-function: linear;
+        animation-duration: 2s;
+    }
+    #bubble5 {
+        left: 80%;
+        animation-timing-function: linear;
+        animation-duration: 5s;
+    }
+    @keyframes up {
+        0% {
+            bottom: 0vmax;
+        }
+        50% {
+            bottom:50vmax;
+        }
+        
+        100% {
+            top:0vmax;
+        }
+    }
+
